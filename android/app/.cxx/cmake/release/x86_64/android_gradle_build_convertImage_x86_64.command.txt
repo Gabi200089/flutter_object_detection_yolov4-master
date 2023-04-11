@@ -1,0 +1,7 @@
+Executable : C:\Users\User\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\GRADUATE\ing~\0923\flutter_object_detection_yolov4-master\android\app\.cxx\cmake\release\x86_64
+convertImage
+jvmArgs : 
+

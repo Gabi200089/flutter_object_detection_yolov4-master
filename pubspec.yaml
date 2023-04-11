@@ -1,0 +1,129 @@
+name: object_detection
+description: A new Flutter project.
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^1.4.0
+  # Add the dependency for the FlutterFire plugin for Google Analytics
+  firebase_analytics: ^8.2.0
+  # Add the dependencies for any other Firebase products you want to use in your app
+  # For example, to use Firebase Authentication and Cloud Firestore
+  firebase_auth: ^3.0.1
+  cloud_firestore: ^2.4.0
+  rflutter_alert: ^2.0.2
+  provider: ^5.0.0
+  flutter_spinkit: ^5.0.0
+  url_launcher: ^6.0.9
+  image: ^3.0.2
+  sizer: ^2.0.13
+  auto_size_text: ^2.1.0
+
+  #OCR
+  image_cropper: ^1.3.1
+#  firebase_ml_vision: ^0.1.1
+#  image_picker: ^0.8.3
+  image_picker: ^0.8.3
+#  google_ml_vision: ^0.0.6
+  firebase_ml_vision: ^0.9.6+2
+
+  #食物辨識
+  camera: ^0.8.1+3
+  tflite: ^1.1.2
+  flutter_speed_dial: ^4.2.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+#  flutter_barcode_scanner: ^2.0.0
+  flutter_barcode_scanner: ^2.0.0
+
+  font_awesome_flutter: ^9.0.0
+
+  #圖表
+  fl_chart: ^0.36.3
+
+  #照片上傳
+  firebase_storage: ^10.0.1
+  # store file on device
+  path_provider: ^2.0.1
+
+  #食材管理
+  percent_indicator: ^3.0.1
+  curved_navigation_bar: ^1.0.1
+  date_format: ^2.0.2
+
+  #身形管理
+  carousel_slider: ^4.0.0
+  wc_flutter_share: ^0.4.0
+  screenshot: ^1.2.3
+  share: ^2.0.4
+
+  #個人檔案
+  numberpicker: ^2.1.1
+
+  #提醒
+  firebase_messaging: ^10.0.4
+  rxdart: ^0.27.1
+  flutter_native_timezone: ^2.0.0
+  flutter_local_notifications: ^8.0.0
+
+  #autologin
+  dio: ^4.0.0
+  package_info: ^2.0.2
+  shared_preferences: ^2.0.6
+  localstorage: ^4.0.0+1
+  flutter_secure_storage: ^4.2.1
+
+  #選擇器
+  flutter_picker: ^2.0.2
+
+  #Navigator bar
+  custom_navigation_bar: ^0.8.2
+
+  #yolov4
+  tflite_flutter: ^0.9.0
+  tflite_flutter_helper: ^0.3.0
+  permission_handler: ^8.1.4+2
+  fixnum: ^1.0.0
+  #cache network
+  cached_network_image: ^3.1.0
+#  #Braintree
+#  flutter_braintree: ^2.0.0+1
+
+  #WebView
+  webview_flutter: ^2.0.12
+
+  #video
+  video_player: ^2.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/
+#    - data/

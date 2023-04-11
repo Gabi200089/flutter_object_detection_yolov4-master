@@ -1,0 +1,3 @@
+ninja: Entering directory `E:\GRADUATE\ing~\0923\flutter_object_detection_yolov4-master\android\app\.cxx\cmake\release\arm64-v8a'
+[1/2] Building C object CMakeFiles/convertImage.dir/E_/GRADUATE/ing~/0923/flutter_object_detection_yolov4-master/ios/Classes/converter.c.o
+[2/2] Linking C shared library E:\GRADUATE\ing~\0923\flutter_object_detection_yolov4-master\build\app\intermediates\cmake\release\obj\arm64-v8a\libconvertImage.so
